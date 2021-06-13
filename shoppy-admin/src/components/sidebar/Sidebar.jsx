@@ -3,6 +3,7 @@ import "./sidebar.scss";
 import LineStyleIcon from "@material-ui/icons/LineStyle";
 import AttachMoneyIcon from "@material-ui/icons/AttachMoney";
 import TimelineIcon from "@material-ui/icons/Timeline";
+import GroupIcon from "@material-ui/icons/Group";
 
 function Sidebar() {
 	return (
@@ -28,8 +29,8 @@ function Sidebar() {
 					<h3 className='sidebarTitle'>Staffs</h3>
 					<ul className='sidebarList'>
 						<li className='sidebarListItem '>
-							<LineStyleIcon className='sidebarIcon ' />
-							Home
+							<GroupIcon className='sidebarIcon ' />
+							Users
 						</li>
 						<li className='sidebarListItem'>
 							<TimelineIcon className='sidebarIcon' /> Analytics

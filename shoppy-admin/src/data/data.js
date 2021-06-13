@@ -37,4 +37,97 @@ const data = [
 	},
 ];
 
-export default data;
+const rowData = [
+	{
+		id: 1,
+		username: "Piyush",
+		avatar:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		email: "piyush@mail",
+		status: "active",
+		transaction: "$123",
+	},
+	{
+		id: 2,
+		username: "Piyush",
+		avatar:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		email: "piyush@mail",
+		status: "active",
+		transaction: "$123",
+	},
+	{
+		id: 3,
+		username: "Piyush",
+		avatar:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		email: "piyush@mail",
+		status: "active",
+		transaction: "$123",
+	},
+	{
+		id: 4,
+		username: "Piyush",
+		avatar:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		email: "piyush@mail",
+		status: "active",
+		transaction: "$123",
+	},
+	{
+		id: 5,
+		username: "Piyush",
+		avatar:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		email: "piyush@mail",
+		status: "active",
+		transaction: "$123",
+	},
+	{
+		id: 6,
+		username: "Piyush",
+		avatar:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		email: "piyush@mail",
+		status: "active",
+		transaction: "$123",
+	},
+	{
+		id: 7,
+		username: "Piyush",
+		avatar:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		email: "piyush@mail",
+		status: "active",
+		transaction: "$123",
+	},
+	{
+		id: 8,
+		username: "Piyush",
+		avatar:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		email: "piyush@mail",
+		status: "active",
+		transaction: "$123",
+	},
+	{
+		id: 9,
+		username: "Piyush",
+		avatar:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		email: "piyush@mail",
+		status: "active",
+		transaction: "$123",
+	},
+	{
+		id: 10,
+		username: "Piyush",
+		avatar:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		email: "piyush@mail",
+		status: "active",
+		transaction: "$123",
+	},
+];
+
+export { data, rowData };
