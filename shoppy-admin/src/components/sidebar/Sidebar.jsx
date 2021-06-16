@@ -4,6 +4,8 @@ import LineStyleIcon from "@material-ui/icons/LineStyle";
 import AttachMoneyIcon from "@material-ui/icons/AttachMoney";
 import TimelineIcon from "@material-ui/icons/Timeline";
 import GroupIcon from "@material-ui/icons/Group";
+import ExtensionIcon from "@material-ui/icons/Extension";
+import RoomServiceIcon from "@material-ui/icons/RoomService";
 import { Link } from "react-router-dom";
 
 function Sidebar() {
@@ -49,10 +51,12 @@ function Sidebar() {
 				<div className='sidebarMenu'>
 					<h3 className='sidebarTitle'>Menu</h3>
 					<ul className='sidebarList'>
-						<li className='sidebarListItem'>
-							<LineStyleIcon className='sidebarIcon' />
-							Home
-						</li>
+						<Link to='/products'>
+							<li className='sidebarListItem'>
+								<ExtensionIcon className='sidebarIcon' />
+								Products
+							</li>
+						</Link>
 						<li className='sidebarListItem'>
 							<TimelineIcon className='sidebarIcon' /> Analytics
 						</li>
@@ -66,8 +70,8 @@ function Sidebar() {
 					<h3 className='sidebarTitle'>Notifications</h3>
 					<ul className='sidebarList'>
 						<li className='sidebarListItem'>
-							<LineStyleIcon className='sidebarIcon' />
-							Home
+							<RoomServiceIcon className='sidebarIcon' />
+							Reminder
 						</li>
 						<li className='sidebarListItem'>
 							<TimelineIcon className='sidebarIcon' /> Analytics

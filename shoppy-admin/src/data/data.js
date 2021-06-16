@@ -130,4 +130,97 @@ const rowData = [
 	},
 ];
 
-export { data, rowData };
+const ProductData = [
+	{
+		id: 1,
+		username: "Mac m1 Chipset",
+		image:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		stock: "798",
+		status: "active",
+		price: "$123",
+	},
+	{
+		id: 2,
+		username: "Mac m1 Chipset",
+		image:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		stock: "798",
+		status: "active",
+		price: "$123",
+	},
+	{
+		id: 3,
+		username: "Mac m1 Chipset",
+		image:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		stock: "798",
+		status: "active",
+		price: "$123",
+	},
+	{
+		id: 4,
+		username: "Mac m1 Chipset",
+		image:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		stock: "798",
+		status: "active",
+		price: "$123",
+	},
+	{
+		id: 5,
+		username: "Mac m1 Chipset",
+		image:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		stock: "798",
+		status: "active",
+		price: "$123",
+	},
+	{
+		id: 6,
+		username: "Mac m1 Chipset",
+		image:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		stock: "798",
+		status: "active",
+		price: "$123",
+	},
+	{
+		id: 7,
+		username: "Mac m1 Chipset",
+		image:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		stock: "798",
+		status: "active",
+		price: "$123",
+	},
+	{
+		id: 8,
+		username: "Mac m1 Chipset",
+		image:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		stock: "798",
+		status: "active",
+		price: "$123",
+	},
+	{
+		id: 9,
+		username: "Mac m1 Chipset",
+		image:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		stock: "798",
+		status: "active",
+		price: "$123",
+	},
+	{
+		id: 10,
+		username: "Mac m1 Chipset",
+		image:
+			"https://images.pexels.com/photos/7266332/pexels-photo-7266332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		stock: "798",
+		status: "active",
+		price: "$123",
+	},
+];
+
+export { data, rowData, ProductData };
